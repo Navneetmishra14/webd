@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.menu {
+    padding-left: 469px;
+}
+
+.menu a {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 10px;
+    padding-left: 10px;
+    color: black;
+}
+
+.menu a:hover {
+    color: rgb(red, green, blue);
+}
+
+
+
+/*.design a{
+   
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #ff2b85;
+    font-family: monospace;
+    border-radius: 25px;
+}*/
+
+
+.banner {
+    background: url(../image/banner1.jpeg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+}
+
+.banner h1 {
+    text-align: center;
+    color: MEDIUMBLUE;
+    ;
+    font-size: 60px;
+    font-family: cursive;
+    padding-top: 185px;
+
+}
+
+
+.banner h2 {
+    text-transform: uppercase;
+    color: red;
+    text-shadow: #8b1005;
+    font-size: 30px;
+    width: 52%;
+    margin: auto;
+    position: relative;
+    top: 226px;
+    left: 26px;
+    border-radius: 11px;
+}
+
+
+.banner h4 {
+    position: relative;
+    top: 230px;
+    font-size: 22px;
+    color: red;
+    text-shadow: #8b1005;
+
+}
+
+.banner input {
+    background: black;
+    width: 600px;
+    height: 45px;
+    margin: auto;
+    position: relative;
+    top: 244px;
+    left: 69px;
+    box-shadow: 3px 4px 8px #8b1005;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding-left: 16px;
+}
+
+::placeholder {
+    color: #8b1005;
+}
+
+.news {
+    padding: 13px 190px;
+    width: 100%;
+    height: 50px;
+    margin-top: -20px;
+    background: #ff2b85; 
+
+}
+
+.news marquee {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+.about {
+    background: white;
+    padding: 170px 220px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: 3px 3px 2px #8b1005;
+    margin-bottom: 8px;
+}
+
+.about p {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: scan-serif;
+    line-height: 22px;
+    margin-bottom: 11px;
+    font-weight: 500;
+}
+
+.about button {
+    width: 170px;
+    height: 38px;
+    background: #ff2b85;
+    color: white;
+    border: navajowhite;
+    border-radius: 4px;
+    margin-top: 14px;
+    font-size: 16px;
+}
+
+.about button:hover {
+    background: black;
+}
+
+
+
+
+
+
+
+
+
+.press {
+    background: url(../image/banner2.jpeg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    padding: 170px 220px;
+    text-align: center;
+}
+
+.press h3 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    color:black;
+    text-shadow: 3px 3px 2px #8b1005;
+    margin-bottom: 8px;
+}
+
+.press p {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: scan-serif;
+    line-height: 22px;
+}
+
+.press button {
+    width: 170px;
+    height: 38px;
+    background: #ff2b85;
+    color: white;
+    border: navajowhite;
+    border-radius: 4px;
+    margin-top: 14px;
+    font-size: 16px;
+}
+
+.press button:hover {
+    background: black;
+}
+
+
+
+
+
+
+.team {
+    background: url(../image/banner3.jpeg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+}
+
+.team {
+
+    padding: 170px 220px;
+    text-align: center;
+}
+
+.team h3 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: 3px 3px 2px #8b1005;
+    margin-bottom: 8px;
+
+}
+
+.team p {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    /* font-family:scan-serif;*/
+    line-height: 22px;
+}
+
+.team button {
+    width: 170px;
+    height: 38px;
+    background: #ff2b85;
+    border: navajowhite;
+    border-radius: 4px;
+    margin-top: 14px;
+    font-size: 16px;
+}
+
+.team button:hover {
+    background: black;
+}
+
+
+
+
+.brand {
+    background: #ff2b85;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.brand {
+    background: pinks;
+    padding: 170px 220px;
+    text-align: center;
+}
+
+.brand h3 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    color:black;
+    text-shadow: 3px 3px 2px #8b1005;
+    margin-bottom: 8px;
+}
+
+.brand p {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    /* font-family:scan-serif;*/
+    line-height: 22px;
+}
+
+.brand button {
+    width: 170px;
+    height: 38px;
+    background: #ff2b85;
+    border: navajowhite;
+    border-radius: 4px;
+    margin-top: 14px;
+    font-size: 16px;
+}
+
+.brand button:hover {
+    background: black;
+}
+
+
+
+
+footer {
+    padding: 40PX 120PX;
+    background: white;
+    width: 100%;
+    height: 120px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-1 {
+    display: flex;
+}
+
+.first-1 span {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 2px;
+    font-weight: 400;
+}
+
+.second {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.second div {
+    width: 200px;
+}
+
+.second h4 {
+    font-weight: lighter;
+    color: rgb(red, green, blue);
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+
+.second a {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: gray;
+    font-size: 1rem;
+}
+
+.third {
+    padding: 10px;
+    color: gray;
+    font-size: 0.7rem;
+
+}
